@@ -15,7 +15,7 @@ def create_movie_session(
         cinema_hall_id=cinema_hall_id)
 
 
-def get_movie_sessions(
+def get_movies_sessions(
         session_date: str | None = None
 ) -> list[MovieSession]:
     if session_date is None:
